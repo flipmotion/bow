@@ -1,4 +1,4 @@
-// $(document).ready(function() {
+$(document).ready(function() {
 // 	$('a.smooth').click(function(){
 // 		$('html, body').animate({
 // 			scrollTop: $( $.attr(this, 'href') ).offset().top 
@@ -141,7 +141,6 @@
 // 		var pick = $('.header .logo img').attr("data-src2");
 // 		$('.header .logo img').attr("src",pick);
 // 	}
-// }
 google.maps.event.addDomListener(window, 'load', init);
 
     function init() {
@@ -291,3 +290,4 @@ google.maps.event.addDomListener(window, 'load', init);
             map: map
         });
     }
+ });

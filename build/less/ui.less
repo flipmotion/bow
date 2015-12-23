@@ -8,12 +8,16 @@
 	border: none;
 	vertical-align:baseline;
 	margin-right: 5px; 
-	outline: none; 
+	outline: none;
+
 }
 .search {
 	background:url(../img/search.png) left 9px center no-repeat @vinous;
 	padding-left: 33px; 
 	margin-left: -25px;
+	&:active {
+		background-image:url(../img/search.png);
+	}
 }
 .new {
 	background-color: @l-vinous;
@@ -25,11 +29,17 @@
 	background:url(../img/my-cart.png) left 9px center no-repeat @vinous;
 	padding-left: 36px;
 	margin-right: 0; 
+	&:active {
+		background-image:url(../img/my-cart.png);
+	}
 }
 .sign-up {
 	background:url(../img/footer-sign-up.png) left 9px center no-repeat @vinous;
 	padding-left: 36px;
 	margin-right: 0; 
+	&:active {
+		background-image:url(../img/footer-sign-up.png);
+	}
 }
 .white {
 	background-color: #fff;
